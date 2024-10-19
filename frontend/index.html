@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pi.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrowPi - PI Getting Bigger!</title>
+    <meta
+      name="description"
+      content="GrowPi: This is a real-time update of Pi growing based on clicks on the Grow Pi button by visitors"
+    />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:alt" content="GrowPi - PI Getting Bigger!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GrowPi - PI Getting Bigger!" />
+    <meta property="og:description" content="GrowPi: This is a real-time update of Pi growing based on clicks on the Grow Pi button by visitors" />
+    <meta property="og:url" content="https://growpi.fun" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-94M775DWC2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-94M775DWC2");
+  </script>
+</html>
